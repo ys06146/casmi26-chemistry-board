@@ -1,0 +1,48 @@
+name: 화학적 검토 질문
+description: 구조·피크·중성 손실·조건·정규화에 대한 학술 의견을 요청합니다.
+title: "[검토 요청] "
+body:
+  - type: markdown
+    attributes:
+      value: "관측한 사실과 해석 가설을 구분해 주세요. 구조 그림·스펙트럼 이미지는 본문에 첨부할 수 있습니다."
+  - type: dropdown
+    id: category
+    attributes:
+      label: 분류
+      options:
+        - 구조 차이
+        - 피크·중성 손실
+        - 이온 형태·측정 조건
+        - 호변이성질체·정규화
+        - 실험 설계
+        - 기타
+    validations:
+      required: true
+  - type: input
+    id: case
+    attributes:
+      label: 사례 ID 또는 자료 링크
+      placeholder: confirm0003
+  - type: textarea
+    id: observation
+    attributes:
+      label: 관측한 사실
+      description: 피크 m/z·세기·스펙트럼 ID·이온 형태·장비·CE·구조/모델 순위를 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 검토받고 싶은 질문
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: 현재 해석과 참고 자료
+      description: 확신 수준·대안 해석·논문이나 계산 근거도 함께 남겨 주세요.
+  - type: textarea
+    id: conclusion
+    attributes:
+      label: 검토 후 요약 / 다음 실험
+      description: 답변을 받은 뒤 편집해 정리할 수 있습니다.

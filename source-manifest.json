@@ -1,0 +1,46 @@
+{
+  "created": "2026-11-01",
+  "method": "Saved-result extraction and RDKit 2D coordinates with native SVG skeletal drawing only; chemistry hypotheses remain unfilled.",
+  "rdkit_version": "2026.03.3",
+  "loss_count": 11,
+  "gain_count": 6,
+  "loss_ids": [
+    "confirm0003",
+    "confirm0005",
+    "confirm0008",
+    "confirm0013",
+    "confirm0017",
+    "confirm0021",
+    "confirm0032",
+    "confirm0042",
+    "confirm0051",
+    "confirm0052",
+    "confirm0066"
+  ],
+  "gain_ids": [
+    "confirm0029",
+    "confirm0034",
+    "confirm0038",
+    "confirm0049",
+    "confirm0062",
+    "confirm0071"
+  ],
+  "spectra_in_package": 44,
+  "metric_identity": "first 14 chars of InChIKey after canonical tautomer normalization; stereochemistry not scored",
+  "cohort": "RIKEN 100 structures / 279 spectra, positive [M+H]+, observed collision energy",
+  "source_sha256": {
+    "confirmation.json": "da0216babb63218c7c8e7a32c34f9955e7c6fb939a9847b96e39b13fb9389f28",
+    "confirmation_truth.parquet": "e6e0986e3cf61527a43d81bac7a1375e5e9b0196401c402d837c9eec91ae0d30",
+    "validation_queries.parquet": "6e38917c3d6abb0e36a3b514d050b353c29be5b8f5c4b4ae228d267befc0b824",
+    "baseline_v3.csv": "e4c3ce091744dab948be1fe0eabda23659dc4e7274e0e7d4fd61586b0679640f",
+    "submission.csv": "fb4a81e9c9538cfc8d8780b393f938de20854d03a980b9423ddff0b69cbcd723",
+    "dreams_top100.csv": "2f825e2ccb26f2b2be27f0a99dc7890e07305d51930cafb60507111901ff2718",
+    "iceberg_scores_top100.jsonl": "00c620bd1172a21ebeaa52d99d45a3970565194cad32f73f22e2a6705d3268d7",
+    "iceberg_rank.py": "309f9e0475a001cef4febeecb2db29905c7b668b3130cfb4454cc9e1920e0106",
+    "prepare_confirmation.py": "15f0d2c71b8819fd6de778bde4c674150e67b089344599bed04f67e7c95bb4fa"
+  },
+  "html_bytes": 408966,
+  "original_guide_sha256": "50650df602379a04c79c55c5cd818b4d82b79b1d8af5abebbcd4e342be1da65b",
+  "hosted_guide_sha256": "033e78a27396541f7f5a25dc7d241fc5b1b14ec738711b9d874172e11670a667",
+  "hosted_guide_bytes": 408150
+}

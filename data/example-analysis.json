@@ -1,0 +1,161 @@
+{
+  "case": "confirm0003",
+  "status": "Worked interpretation, not experimentally confirmed fragmentation mechanism or a new benchmark",
+  "source_spectrum_id": "confirmation-2465040",
+  "neutral_mass": 527.2267650159998,
+  "precursor_calculated": 528.2340414680908,
+  "precursor_observed": 528.2347,
+  "fragment_smiles_hypothesis": "C=[N+]1CCCC1",
+  "fragment_calculated_mz": 84.08077574008999,
+  "complement_neutral_formula_hypothesis": "C22H24N2O8",
+  "complement_mass_hypothesis": 444.15326572800086,
+  "assignments_hypotheses": [
+    {
+      "observed": 84.081,
+      "formula_hypothesis": "C5H10N+",
+      "calculated": 84.080775740091,
+      "ppm_using_rounded_observation": 2.667196003246983
+    },
+    {
+      "observed": 98.06,
+      "formula_hypothesis": "C5H8NO+",
+      "calculated": 98.060040296091,
+      "ppm_using_rounded_observation": -0.4109328415447843
+    },
+    {
+      "observed": 126.055,
+      "formula_hypothesis": "C6H8NO2+",
+      "calculated": 126.054954916091,
+      "ppm_using_rounded_observation": 0.35765281127361986
+    },
+    {
+      "observed": 154.05,
+      "formula_hypothesis": "C7H8NO3+",
+      "calculated": 154.049869536091,
+      "ppm_using_rounded_observation": 0.846893992246667
+    },
+    {
+      "observed": 241.085,
+      "formula_hypothesis": "C15H13O3+",
+      "calculated": 241.085920696091,
+      "ppm_using_rounded_observation": -3.818954206567101
+    },
+    {
+      "observed": 269.08,
+      "formula_hypothesis": "C16H13O4+",
+      "calculated": 269.080835316091,
+      "ppm_using_rounded_observation": -3.104331417850817
+    }
+  ],
+  "co_neutral_mass": 27.99491462,
+  "rank_replay": [
+    {
+      "raw_key": "OPUYAZPZORIADD",
+      "metric_key": "OPUYAZPZORIADD",
+      "base_rank": 1,
+      "ice_rank": 17,
+      "cosine": 0.021660114656389482,
+      "smiles": "COc1ccc2c3c4n(c2c1)C(C=C(C)CO)OOC(C)(C)CC4N1C(=O)C2CCCN2C(=O)C1(O)C3O",
+      "v3": {
+        "inner_score": 0.06397306397306397,
+        "inner_rank": 4,
+        "dreams_rank": 18,
+        "outer_score": 0.0625,
+        "final_rank": 5
+      },
+      "v4": {
+        "inner_score": 0.07205387205387205,
+        "inner_rank": 1,
+        "dreams_rank": 18,
+        "outer_score": 0.0715909090909091,
+        "final_rank": 1
+      }
+    },
+    {
+      "raw_key": "HMEYVGGHISAPJR",
+      "metric_key": "PLDZOHPIBZVDLQ",
+      "base_rank": 7,
+      "ice_rank": 3,
+      "cosine": 0.4158365044171096,
+      "smiles": "CN(C)C1C(O)=C(C(=O)NCN2CCCC2)C(=O)C2(O)C(O)=C3C(=O)c4c(O)cccc4C(C)(O)C3CC12",
+      "v3": {
+        "inner_score": 0.06787330316742082,
+        "inner_rank": 2,
+        "dreams_rank": 6,
+        "outer_score": 0.078125,
+        "final_rank": 2
+      },
+      "v4": {
+        "inner_score": 0.06515837104072399,
+        "inner_rank": 5,
+        "dreams_rank": 6,
+        "outer_score": 0.06520833333333334,
+        "final_rank": 5
+      }
+    },
+    {
+      "raw_key": "PLDZOHPIBZVDLQ",
+      "metric_key": "PLDZOHPIBZVDLQ",
+      "base_rank": 9,
+      "ice_rank": 1,
+      "cosine": 0.8571444395141796,
+      "smiles": "CN(C)C1C(=O)C(C(=O)NCN2CCCC2)C(=O)C2(O)C(=O)C3C(=O)c4c(O)cccc4C(C)(O)C3CC12",
+      "v3": {
+        "inner_score": 0.07177033492822966,
+        "inner_rank": 1,
+        "dreams_rank": 7,
+        "outer_score": 0.08288770053475936,
+        "final_rank": 1
+      },
+      "v4": {
+        "inner_score": 0.0660287081339713,
+        "inner_rank": 3,
+        "dreams_rank": 7,
+        "outer_score": 0.07058823529411765,
+        "final_rank": 2
+      }
+    },
+    {
+      "raw_key": "YHDPWEWZPGTMMU",
+      "metric_key": "PLDZOHPIBZVDLQ",
+      "base_rank": 10,
+      "ice_rank": 2,
+      "cosine": 0.6644378983261461,
+      "smiles": "CN(C)C1C(=O)C(=C(O)NCN2CCCC2)C(=O)C2(O)C(=O)C3=C(O)c4c(O)cccc4C(C)(O)C3CC12",
+      "v3": {
+        "inner_score": 0.06666666666666667,
+        "inner_rank": 3,
+        "dreams_rank": 11,
+        "outer_score": 0.0695970695970696,
+        "final_rank": 3
+      },
+      "v4": {
+        "inner_score": 0.06166666666666666,
+        "inner_rank": 6,
+        "dreams_rank": 11,
+        "outer_score": 0.05729166666666667,
+        "final_rank": 6
+      }
+    }
+  ],
+  "replayed_final_lists_equal_saved_outputs": true,
+  "normalization_observation": "Fusion uses raw non-stereo InChIKey14; evaluation uses canonical-tautomer InChIKey14. Three raw entries match the correct evaluation group.",
+  "sources": [
+    {
+      "title": "PubChem: Rolitetracycline, structure and experimental LC-MS records",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/rolitetracycline"
+    },
+    {
+      "title": "NCBI MeSH: Rolitetracycline, pyrrolidinylmethyl tetracycline",
+      "url": "https://www.ncbi.nlm.nih.gov/mesh/68012382"
+    }
+  ],
+  "source_sha256": {
+    "fusion.py": "950d454c3c801f9c38a5e605ad48a1535ea524ee4bb4820a49fe7d83cf4ba4e6",
+    "iceberg_rank.py": "309f9e0475a001cef4febeecb2db29905c7b668b3130cfb4454cc9e1920e0106",
+    "iceberg_scores_top100.jsonl": "00c620bd1172a21ebeaa52d99d45a3970565194cad32f73f22e2a6705d3268d7",
+    "dreams_top100.csv": "2f825e2ccb26f2b2be27f0a99dc7890e07305d51930cafb60507111901ff2718",
+    "baseline_v3.csv": "e4c3ce091744dab948be1fe0eabda23659dc4e7274e0e7d4fd61586b0679640f",
+    "submission.csv": "fb4a81e9c9538cfc8d8780b393f938de20854d03a980b9423ddff0b69cbcd723"
+  }
+}
