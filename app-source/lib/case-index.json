@@ -1,0 +1,138 @@
+[
+  {
+    "id": "confirm0003",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C27H33N3O8",
+    "spectra": 1
+  },
+  {
+    "id": "confirm0005",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C12H10O5",
+    "spectra": 1
+  },
+  {
+    "id": "confirm0008",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C17H14O4",
+    "spectra": 2
+  },
+  {
+    "id": "confirm0013",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C12H27O4P",
+    "spectra": 1
+  },
+  {
+    "id": "confirm0017",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C15H27NO5",
+    "spectra": 4
+  },
+  {
+    "id": "confirm0021",
+    "group": "loss",
+    "before": 1,
+    "after": 5,
+    "formula": "C19H26O11",
+    "spectra": 3
+  },
+  {
+    "id": "confirm0032",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C37H67NO13",
+    "spectra": 4
+  },
+  {
+    "id": "confirm0042",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C6H6O3",
+    "spectra": 1
+  },
+  {
+    "id": "confirm0051",
+    "group": "loss",
+    "before": 1,
+    "after": 3,
+    "formula": "C29H26ClN3O8",
+    "spectra": 4
+  },
+  {
+    "id": "confirm0052",
+    "group": "loss",
+    "before": 1,
+    "after": 6,
+    "formula": "C18H12O4",
+    "spectra": 3
+  },
+  {
+    "id": "confirm0066",
+    "group": "loss",
+    "before": 1,
+    "after": 2,
+    "formula": "C30H28O9",
+    "spectra": 3
+  },
+  {
+    "id": "confirm0029",
+    "group": "gain",
+    "before": 3,
+    "after": 1,
+    "formula": "C21H22N2O3",
+    "spectra": 3
+  },
+  {
+    "id": "confirm0034",
+    "group": "gain",
+    "before": 3,
+    "after": 1,
+    "formula": "C17H14O7",
+    "spectra": 2
+  },
+  {
+    "id": "confirm0038",
+    "group": "gain",
+    "before": 2,
+    "after": 1,
+    "formula": "C25H39NO5",
+    "spectra": 3
+  },
+  {
+    "id": "confirm0049",
+    "group": "gain",
+    "before": 5,
+    "after": 1,
+    "formula": "C17H24ClNO4",
+    "spectra": 4
+  },
+  {
+    "id": "confirm0062",
+    "group": "gain",
+    "before": 3,
+    "after": 1,
+    "formula": "C40H46N6O11",
+    "spectra": 2
+  },
+  {
+    "id": "confirm0071",
+    "group": "gain",
+    "before": 2,
+    "after": 1,
+    "formula": "C30H22O10",
+    "spectra": 3
+  }
+]

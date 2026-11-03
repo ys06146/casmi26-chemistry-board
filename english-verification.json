@@ -1,0 +1,65 @@
+{
+  "github_pages": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "language_en": true,
+      "matches_local": true
+    },
+    {
+      "file": "guide.html",
+      "status": 200,
+      "language_en": true,
+      "matches_local": true
+    },
+    {
+      "file": "presentation.html",
+      "status": 200,
+      "language_en": true,
+      "matches_local": true
+    },
+    {
+      "file": "speaker-notes.html",
+      "status": 200,
+      "language_en": true,
+      "matches_local": true
+    },
+    {
+      "file": "slide-study.html",
+      "status": 200,
+      "language_en": true,
+      "matches_local": true
+    }
+  ],
+  "site_url": "https://casmi26-chemistry-desk.jinseobae.chatgpt.site",
+  "site_version": 1,
+  "site_commit": "69d4b3d449782817d03ead6363f212aab5cd388d",
+  "github_commit": "b848f30826a6271a088006e6d85d1006645cb3a5",
+  "site_access": "public",
+  "site_deployment_status": "succeeded",
+  "api_tests_passed": 24,
+  "typecheck": "passed",
+  "production_build": "passed",
+  "cases": 17,
+  "spectra": 44,
+  "slides": 6,
+  "browser_verified": [
+    "local sign-in",
+    "local post creation",
+    "production sign-out and public read",
+    "production sign-in with existing ChatGPT account",
+    "production post and reply creation, including persistence after reload",
+    "production own reply deletion",
+    "production own post deletion and restoration",
+    "production test cleanup and chemistry-focused replacement example"
+  ],
+  "limits": [
+    "Production UI verification used the current author account; a second author account was not tested.",
+    "Native confirmation dialogs intermittently timed out during automation; final deletion state was verified in the live UI.",
+    "Direct Python HTTP requests to the Sites URL were rejected by Cloudflare 1010; hosted request logs confirm GET / and GET /api/posts returned 200."
+  ],
+  "production_schema": [
+    "chemistry_posts",
+    "chemistry_replies"
+  ]
+}
