@@ -1,0 +1,1 @@
+Core server app source. Initialize the official Sites Vinext starter, then apply these app/db files and a D1 binding named DB. Runtime authentication must use the trusted Sites dispatch identity headers; never trust these headers from arbitrary public clients.
