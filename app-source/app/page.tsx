@@ -1,8 +1,8 @@
 import { getChatGPTUser,chatGPTSignInPath,chatGPTSignOutPath } from "./chatgpt-auth";
-import Board from "./board";
+import Dashboard from "./dashboard";
 export const dynamic="force-dynamic";
 export default async function Page(){
  const user=await getChatGPTUser();
- return <Board signedIn={!!user} signIn={chatGPTSignInPath("/#write")} signOut={chatGPTSignOutPath("/")} />;
+ return <Dashboard signedIn={!!user} signIn={chatGPTSignInPath("/#team")} signOut={chatGPTSignOutPath("/")} />;
 }
 

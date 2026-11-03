@@ -1,6 +1,6 @@
 'use strict';
 const $ = s => document.querySelector(s);
-const BOARD = 'https://casmi26-chemistry-desk.jinseobae.chatgpt.site/';
+const BOARD = 'https://casmi26-chemistry-desk.jinseobae.chatgpt.site/discussion';
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const link = id => 'cases.html?case=' + encodeURIComponent(id) + '#case-detail';
 const boardLink = (id, section) => BOARD + '?case=' + encodeURIComponent(id) + '#' + section;

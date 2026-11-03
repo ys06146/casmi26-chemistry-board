@@ -1,0 +1,174 @@
+{
+  "scope": "Loopback development database only",
+  "passed": 31,
+  "checks": [
+    {
+      "path": "/api/dashboard",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 401
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 403
+    },
+    {
+      "path": "/api/dashboard/members",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 403
+    },
+    {
+      "path": "/api/dashboard/members",
+      "method": "PATCH",
+      "status": 403
+    },
+    {
+      "path": "/api/dashboard/members",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/dashboard/members",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 400
+    },
+    {
+      "path": "/api/dashboard/members",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/members",
+      "method": "PATCH",
+      "status": 409
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 400
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 400
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 400
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 400
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 409
+    },
+    {
+      "path": "/api/dashboard",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 409
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 409
+    },
+    {
+      "path": "/api/dashboard",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/members",
+      "method": "PATCH",
+      "status": 403
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard/items",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "path": "/api/dashboard",
+      "method": "GET",
+      "status": 200
+    }
+  ],
+  "verified": [
+    "anonymous read and write rejection",
+    "pending member cannot edit or self-approve",
+    "owner bootstrap and approval",
+    "regular approved member can edit",
+    "server validation and CSRF origin check",
+    "persistent case assignment and status",
+    "idempotent retry",
+    "concurrent edit: one winner, one conflict, one audit entry",
+    "experiment creation and archive",
+    "team focus persistence",
+    "no raw auth identity or email in public responses"
+  ]
+}
